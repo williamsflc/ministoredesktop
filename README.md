@@ -12,6 +12,14 @@ La aplicación incluye:
 - Configuración del negocio, facturas, moneda y métodos de pago.
 - Soporte para SQLite, PostgreSQL, MySQL, SQL Server y Oracle.
 
+Descargar e instalar binarios:
+
+  1. Descargar el archivo comprimido: [MinistoreDesktop-1-0.zip](packaged/MinistoreDesktop-1-0.zip)
+  2. Descomprimir en cualquier ruta y ejecutar el archivo MiniStoreDesktop.bat (Para Windows)
+  NOTA: La PC debe tener instalado Java 17 o superior
+
+Capturas:
+--
 ![Captura 1](docs/captures/Ministore1.png)
 ![Captura 2](docs/captures/Ministore2.png)
 
