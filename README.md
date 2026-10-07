@@ -12,6 +12,10 @@ La aplicación incluye:
 - Configuración del negocio, facturas, moneda y métodos de pago.
 - Soporte para SQLite, PostgreSQL, MySQL, SQL Server y Oracle.
 
+![Captura 1](docs/captures/Ministore1.png)
+![Captura 2](docs/captures/Ministore2.png)
+
+
 ## Prerrequisitos
 
 - **JDK 17 o superior**. El proyecto se compila para Java 17.
@@ -34,7 +38,7 @@ Para usar SQLite no es necesario instalar un servidor de base de datos. Para Pos
 
 Los controladores JDBC de todos los motores soportados se descargan automáticamente como dependencias de Maven.
 
-![Captura](docs/captures/Ministore1.png)
+
 
 ## Construcción
 
