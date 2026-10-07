@@ -1,5 +1,6 @@
 /target/
 /data/
+/miniferre/
 /res/db.properties
 /res/db.properties.tmp
 *.log
