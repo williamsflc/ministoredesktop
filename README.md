@@ -34,6 +34,8 @@ Para usar SQLite no es necesario instalar un servidor de base de datos. Para Pos
 
 Los controladores JDBC de todos los motores soportados se descargan automáticamente como dependencias de Maven.
 
+![Captura](docs/captures/Ministore1.png)
+
 ## Construcción
 
 Desde la raíz del proyecto, ejecute:
