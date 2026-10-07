@@ -1,6 +1,6 @@
 # MiniStore Desktop
 
-MiniStore Desktop es una aplicación de escritorio para la administración de tiendas pequeñas. Esta diseñada con un estilo simple y lijero, enfocado en las funciones básicas para la administración de tiendas pequeñas.
+MiniStore Desktop es una aplicación de escritorio para la administración de tiendas pequeñas. Esta diseñada con un estilo simple y lijero, enfocado en las funciones básicas para la administración de tiendas pequeñas. Con este enfoque el sistema tiene la capacidad de ejeuctarse en equipos con poca RAM y CPU.
 
 La aplicación incluye:
 
@@ -30,6 +30,8 @@ Capturas:
 - **Apache Maven 3.8 o superior**.
 - Un entorno de escritorio con interfaz gráfica.
 - Opcionalmente, **Apache NetBeans** para abrir y ejecutar el proyecto desde el IDE.
+- 1 CPU, 1GB RAM, 1GB de Disco
+- El sistema ha sido probado exitosamente en equipos ARM utilizando un Raspberry PI 3 (1GB RAM)
 
 Compruebe la instalación de Java y Maven:
 
