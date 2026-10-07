@@ -14,9 +14,9 @@ La aplicación incluye:
 
 Descargar e instalar binarios:
 
-  1. Descargar el archivo comprimido: [MinistoreDesktop-1-0.zip](packaged/MinistoreDesktop-1-0.zip)
-  2. Descomprimir en cualquier ruta y ejecutar el archivo MiniStoreDesktop.bat (Para Windows)
-  NOTA: La PC debe tener instalado Java 17 o superior
+  1. Confirmar que el equipo tiene instalado Java 17 o superior
+  2. Descargar el archivo comprimido: [MinistoreDesktop-1-0.zip](packaged/MinistoreDesktop-1-0.zip)
+  3. Descomprimir en cualquier ruta y ejecutar el archivo MiniStoreDesktop.bat (Para Windows)
 
 Capturas:
 --
