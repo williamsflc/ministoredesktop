@@ -1,6 +1,6 @@
 # MiniStore Desktop
 
-MiniStore Desktop es una aplicación de escritorio para la administración de una tienda. Está desarrollada en Java Swing, utiliza FlatLaf para la interfaz gráfica y Maven para la construcción del proyecto.
+MiniStore Desktop es una aplicación de escritorio para la administración de tiendas pequeñas. Esta diseñada con un estilo simple y lijero, enfocado en las funciones básicas para la administración de tiendas pequeñas.
 
 La aplicación incluye:
 
