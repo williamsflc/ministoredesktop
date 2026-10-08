@@ -1,6 +1,6 @@
 # MiniStore Desktop
 
-MiniStore Desktop es una aplicación de escritorio para la administración de tiendas pequeñas. Esta diseñada con un estilo simple y lijero, enfocado en las funciones básicas para la administración de tiendas pequeñas. Con este enfoque el sistema tiene la capacidad de ejeuctarse en equipos con poca RAM y CPU.
+MiniStore Desktop es una aplicación de escritorio para la administración de tiendas pequeñas. Esta diseñada con un estilo simple y lijero, enfocado en las funciones básicas para la administración de tiendas pequeñas. Con este enfoque el sistema tiene la capacidad de ejecutarse en equipos con poca RAM y CPU.
 
 La aplicación incluye:
 
