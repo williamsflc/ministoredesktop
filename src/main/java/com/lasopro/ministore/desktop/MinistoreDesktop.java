@@ -34,7 +34,7 @@ public class MinistoreDesktop {
 
     public static void main(String[] args) throws Exception {
         log = new Log();
-        FlatLightLaf.setup();
+        //FlatLightLaf.setup();
 
         if (Resources.needsInitialSetup()) {
             boolean[] setupCompleted = {false};
@@ -49,11 +49,11 @@ public class MinistoreDesktop {
 
         startStorage();
         
-//        try {
-//            UIManager.setLookAndFeel( UIManager.getSystemLookAndFeelClassName() );
-//        } catch( Exception ex ) {
-//            System.err.println( "Failed to initialize LaF" );
-//        }
+        try {
+            UIManager.setLookAndFeel( UIManager.getCrossPlatformLookAndFeelClassName() );
+        } catch( Exception ex ) {
+            System.err.println( "Failed to initialize LaF" );
+        }
 
         
         
