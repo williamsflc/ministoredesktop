@@ -7,5 +7,5 @@ SET JAVA_EXEC=java
 
 SET MCLASS=com.lasopro.ministore.desktop.MinistoreDesktop
 SET CSPATH=./target/lib/*.jar;./target/MinistoreDesktop-1.0-SNAPSHOT.jar
-%JAVA_EXEC% -cp %CSPATH% %MCLASS%
+%JAVA_EXEC% -splash:res/splash.gif -cp %CSPATH% %MCLASS%
 pause

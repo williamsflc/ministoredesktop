@@ -17,6 +17,7 @@ import java.sql.SQLException;
 import javax.imageio.ImageIO;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
@@ -103,10 +104,32 @@ public class MinistoreDesktop {
     
      public static void startStorage() throws IOException{
         boolean schemaExists = false;
-        try(Connection cnn = DBUtils.getConnection(Resources.getDsName());) {
+
+        Connection cnn = null;
+
+        try{
+            cnn = DBUtils.getConnection(Resources.getDsName());
+        }catch(Exception err){
+            JOptionPane.showMessageDialog(
+                frame, 
+                "No se pudo establecer la conexión a la base de datos:\n"
+                    +"  - "+Resources.getDsName()+": "+ Resources.p(Resources.getDsName()+".jdbc.url")+"\n"
+                    +"  - Error: " +err.getMessage(),
+                "Error al conectar a la base de datos",
+                JOptionPane.ERROR_MESSAGE);
+            System.exit(1);
+        }
+
+
+        try {
             cnn.createStatement().execute("SELECT * FROM APP");
             schemaExists  = true;
-        } catch (SQLException e) {}
+        } catch (SQLException e) {
+            //do nothing
+        } finally{
+            //Force close
+            try{ cnn.close(); }catch(Throwable err){}
+        }
         
         
         if(!schemaExists){
